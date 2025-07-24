@@ -12,7 +12,7 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: #4a90e2;
     color: #fff;
     padding: 1rem;
     text-align: center;
@@ -37,6 +37,10 @@ nav ul li a {
     text-decoration: none;
 }
 
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
 main {
     padding: 20px;
 }
@@ -58,7 +62,7 @@ ul {
 
 footer {
     text-align: center;
-    background-color: #333;
+    background-color: #4a90e2;
     color: #fff;
     padding: 1rem;
     position: fixed;
